@@ -1,0 +1,50 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect x="20" y="110" width="22" height="80" rx="11" fill="#1a3fa8">
+    <animate attributeName="height" values="40;80;55;80;40" dur="1.2s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="130;110;122;110;130" dur="1.2s" begin="0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="50" y="90" width="22" height="120" rx="11" fill="#1a3fa8">
+    <animate attributeName="height" values="70;120;90;120;70" dur="1.2s" begin="0.1s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="115;90;105;90;115" dur="1.2s" begin="0.1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="80" y="65" width="22" height="170" rx="11" fill="#1a3fa8">
+    <animate attributeName="height" values="110;170;130;170;110" dur="1.2s" begin="0.2s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="95;65;85;65;95" dur="1.2s" begin="0.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="110" y="50" width="22" height="200" rx="11" fill="#1a3fa8">
+    <animate attributeName="height" values="140;200;160;200;140" dur="1.2s" begin="0.15s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="80;50;70;50;80" dur="1.2s" begin="0.15s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="140" y="70" width="22" height="160" rx="11" fill="#1a3fa8">
+    <animate attributeName="height" values="100;160;120;160;100" dur="1.2s" begin="0.05s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="100;70;90;70;100" dur="1.2s" begin="0.05s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="170" y="40" width="26" height="220" rx="13" fill="#1a3fa8">
+    <animate attributeName="height" values="160;220;180;220;160" dur="1.2s" begin="0.08s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="70;40;60;40;70" dur="1.2s" begin="0.08s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="204" y="40" width="26" height="220" rx="13" fill="#1a3fa8">
+    <animate attributeName="height" values="160;220;180;220;160" dur="1.2s" begin="0.08s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="70;40;60;40;70" dur="1.2s" begin="0.08s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="238" y="70" width="22" height="160" rx="11" fill="#1a3fa8">
+    <animate attributeName="height" values="100;160;120;160;100" dur="1.2s" begin="0.05s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="100;70;90;70;100" dur="1.2s" begin="0.05s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="268" y="50" width="22" height="200" rx="11" fill="#1a3fa8">
+    <animate attributeName="height" values="140;200;160;200;140" dur="1.2s" begin="0.15s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="80;50;70;50;80" dur="1.2s" begin="0.15s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="298" y="65" width="22" height="170" rx="11" fill="#1a3fa8">
+    <animate attributeName="height" values="110;170;130;170;110" dur="1.2s" begin="0.2s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="95;65;85;65;95" dur="1.2s" begin="0.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="328" y="90" width="22" height="120" rx="11" fill="#1a3fa8">
+    <animate attributeName="height" values="70;120;90;120;70" dur="1.2s" begin="0.1s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="115;90;105;90;115" dur="1.2s" begin="0.1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="358" y="110" width="22" height="80" rx="11" fill="#1a3fa8">
+    <animate attributeName="height" values="40;80;55;80;40" dur="1.2s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="130;110;122;110;130" dur="1.2s" begin="0s" repeatCount="indefinite"/>
+  </rect>
+</svg>
