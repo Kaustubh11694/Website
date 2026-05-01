@@ -2177,30 +2177,29 @@ footer {
       <div class="section-label">Contact</div>
       <h2 class="section-title">Let's talk!</h2>
       <p style="color: var(--text-light); font-size: 15px; letter-spacing: -0.01em;">Book a demo, ask a question, or just say hello.</p>
-      <div class="contact-form reveal">
-        <form action="https://formspree.io/f/mnjwqrvg" method="POST"></form>
+   <div class="contact-form reveal">
+        <form action="https://formspree.io/f/mnjwqrvg" method="POST">
         <div class="form-row">
           <div class="form-group">
             <label>First Name</label>
-            <input type="text" placeholder="John">
-          </form>
-        </div>
+            <input type="text" name="first_name" placeholder="John">
+          </div>
           <div class="form-group">
             <label>Last Name</label>
-            <input type="text" placeholder="Smith">
+            <input type="text" name="last_name" placeholder="Smith">
           </div>
         </div>
         <div class="form-group">
           <label>Email</label>
-          <input type="email" placeholder="john@dealership.com">
+          <input type="email" name="email" placeholder="john@dealership.com">
         </div>
         <div class="form-group">
           <label>Business Name</label>
-          <input type="text" placeholder="Riverside Auto Group">
+          <input type="text" name="business" placeholder="Riverside Auto Group">
         </div>
         <div class="form-group">
           <label>Industry</label>
-          <select>
+          <select name="industry">
             <option value="">Select your industry</option>
             <option>Auto Dealership</option>
             <option>Dental Clinic</option>
@@ -2211,9 +2210,10 @@ footer {
         </div>
         <div class="form-group">
           <label>Message</label>
-          <textarea placeholder="Tell us about your business and what you are looking for..."></textarea>
+          <textarea name="message" placeholder="Tell us about your business and what you are looking for..."></textarea>
         </div>
         <button type="submit" class="btn-submit">Send Message →</button>
+        </form>
       </div>
     </div>
   </div>
@@ -2239,6 +2239,63 @@ footer {
   </div>
 </footer>
 
+<!-- =====================
+     #modal-popup
+     ===================== -->
+<div class="modal-overlay" id="modal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">×</button>
+    <h2>Book a Demo</h2>
+    <p>See CONCIEIT live on a call, configured for your business in 15 minutes.</p>
+    <div class="form-group">
+      <label>Your Name</label>
+      <input type="text" placeholder="John Smith">
+    </div>
+    <div class="form-group">
+      <label>Business Email</label>
+      <input type="email" placeholder="john@dealership.com">
+    </div>
+    <div class="form-group">
+      <label>Phone Number</label>
+      <input type="tel" placeholder="+1 (312) 555-0188">
+    </div>
+    <div class="form-group">
+      <label>Industry</label>
+      <select>
+        <option>Auto Dealership</option>
+        <option>Dental Clinic</option>
+        <option>Real Estate</option>
+        <option>Restaurant</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <form action="https://formspree.io/f/mnjwqrvg" method="POST">
+  <div class="form-group">
+    <label>Your Name</label>
+    <input type="text" name="name" placeholder="John Smith" required>
+  </div>
+  <div class="form-group">
+    <label>Business Email</label>
+    <input type="email" name="email" placeholder="john@dealership.com" required>
+  </div>
+  <div class="form-group">
+    <label>Phone Number</label>
+    <input type="tel" name="phone" placeholder="+1 (312) 555-0188">
+  </div>
+  <div class="form-group">
+    <label>Industry</label>
+    <select name="industry">
+      <option>Auto Dealership</option>
+      <option>Dental Clinic</option>
+      <option>Real Estate</option>
+      <option>Restaurant</option>
+      <option>Other</option>
+    </select>
+  </div>
+  <button type="submit" class="btn-submit">Request Demo →</button>
+</form>
+  </div>
+</div>
 
 <!-- =====================
      #greeting-widget
